@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+        <p>
+            <label for="nombres">Nombres</label>
+            <input type="text" name="nombres" id="nombres">
+        </p>
+        <p>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos">
+        </p>
+        <p>
+                <label for="genero">Genero</label>
+                <select name="genero" id="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                </select>
+        </p>
+        <p>
+                <fieldset>
+                        <legend>Estado civil</legend>
+                        <input type="radio" name="estadocivil" id="casado" value="casado" />
+                        <label for="casado">Casado</label>
+                        <input type="radio" name="estadocivil" id="soltero" value="soltero" checked/>
+                        <label for="soltero">Soltero</label> 
+                </fieldset>
+        </p>
+    </form>
+
+    
+        <p>
+            <button>Agregar</button>
+        </p>
+
+        <table>
+            <tr>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+                <th>Genero</th>
+                <th>Estado civil</th>
+            </tr>
+            
+        </table>
+  
+    
+</body>
+</html>
